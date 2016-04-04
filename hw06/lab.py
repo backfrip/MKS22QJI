@@ -1,6 +1,6 @@
 from string import uppercase, lowercase, digits
 
-def minumum_threshold(password):
+def minimum_threshold(password):
     """Possibly the LEAST memory efficient way to check a password."""
     upper = [c for c in password if c in uppercase]
     lower = [c for c in password if c in lowercase]
